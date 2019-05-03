@@ -52,7 +52,10 @@
   top:0%;
   left:0%;
   background: -webkit-linear-gradient(-45deg, rgba(97, 250, 113, 0.4) 0%,rgba(255, 87, 87, 0.4) 40%,rgba(18, 186, 200, 0.4) 100%);
-  background: linear-gradient(-45deg, rgba(97, 250, 113, 0.4) 0%,rgba(255, 87, 87, 0.4) 40%,rgba(18, 186, 200, 0.4) 100%);
+  background: linear-gradient(-45deg,
+    rgba(97, 250, 113, 0.4) 0%,
+    rgba(255, 87, 87, 0.4) 40%,
+    rgba(18, 186, 200, 0.4) 100%);
   transition:500ms;
   opacity: .2;
 }
